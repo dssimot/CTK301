@@ -1,0 +1,32 @@
+/*Style Sheet for Assignment 3 */
+
+h1{
+    color:azure;
+    background-color: black;
+}
+
+h2{
+    color:cyan;
+    background-color:brown;
+}
+
+h3{
+    color:darkgreen;
+    background-color: cornsilk;
+}
+
+a{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+#contacts{
+    background-color:bisque;
+}
+.list{
+    color:darkred;
+}
