@@ -1,0 +1,49 @@
+/*Style Sheet for Assignment 3 */
+body{
+    font-family: sans-serif;
+    background-image: url(images/background.jfif);
+    background-color: white;
+}
+h1{
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h2{
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+h3{
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+img{
+    border:10px solid black;
+    background-color: yellow;
+    padding: 20px;
+}
+a{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+#contacts{
+    background-color:bisque;
+}
+.list{
+    color:darkred;
+}
+#justify{
+    text-align:justify;
+}
+#center{
+    text-align:center;
+}
