@@ -1,0 +1,75 @@
+/* Assignment 5 CSS */
+
+body{
+    background-image: url(a5bg.png);
+}
+
+h1{
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    padding:20px;
+}
+
+/* Navigation */
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    width: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: darkblue;
+    display:inline-block;
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color: blue;
+}
+
+/* Main Content */
+
+#content{
+    background-color: white;
+    padding:20px;
+}
+#content a{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+#content a:hover{
+    color:red;
+    text-decoration: underline;
+}
+h2{
+    font-family: helvetica, sans-serif;
+    padding-bottom:10px;
+    border-bottom: 3px solid black;
+}
+.paragraphs{
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    font-family: Verdana, Helvetica, sans-serif;
+    color:white;
+    background-color: darkblue;
+    border: 5px solid white;
+    padding: 20px;
+    margin-top:20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
