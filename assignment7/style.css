@@ -1,0 +1,124 @@
+#wrapper{
+    width: 960px;
+    border: 5px solid darkblue;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+}
+body{
+    background-color: gray;
+}
+header {
+    grid-column: span 6;
+    padding-left: 20px;
+    color:lightblue;
+    background-image: linear-gradient(to bottom, blue, darkblue);
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+/*link in h1*/
+h1 a{
+    font-weight: normal;
+    color:lightblue;
+    text-decoration: none;
+}
+h1 a:hover{
+    color:white;
+}
+/*h2 headers*/
+h2{
+    color:darkblue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 5px;
+}
+/*Navigation*/
+nav{
+    grid-column: span 6;
+    background-image: linear-gradient(to bottom, blue, darkblue);
+    border-top: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    width: 240px;
+    border-right: 5px solid darkblue;
+    background-image: linear-gradient(to bottom, blue, darkblue);
+    display:inline-block;
+}
+.Current{
+    color:white;
+}
+nav li a{
+    color:aqua;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+    padding: 15px;
+}
+nav li a:hover{
+    background-color: blue;
+    color:white;
+}
+/*Aside*/
+aside{
+    padding:0px 20px 20px 20px;
+    grid-column: span 2;
+    background-color: lightblue;
+    text-align: justify;
+}
+aside p{
+    font-weight: bold;
+}
+/*Main*/
+main{
+    grid-column: span 4;
+    padding:0px 20px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main img{
+    width:300px;
+    margin-right: 10px;
+    border:3px solid blue;
+}
+/*Page 3 culumns*/
+.page3{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:20px;
+    text-align:unset;
+}
+.page3 p{
+    font-weight: normal;
+}
+.page3 img{
+    width:280px;
+}
+/*Image floats*/
+#vortex{
+    float:left;
+}
+#rocks{
+    float:right;
+}
+/*Paragraph Links*/
+main a, .page3 a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Footer*/
+footer{
+    grid-column: span 6;
+    background-color: red;
+    padding: 10px;
+    border-top: 5px solid darkblue;
+}
