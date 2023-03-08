@@ -1,0 +1,99 @@
+body{
+    background-image: url(frogbackground.jpg);
+    background-size: 500px;
+}
+#wrapper{
+    width: 960px;
+    background-color:white;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(6,1FR);
+    margin:1em auto;
+}
+
+header{
+    background-color: cornflowerblue;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    grid-column: span 6;
+    border-bottom: 3px solid black;
+    padding: 0px 10px;
+}
+header h1{
+    font-weight: normal;
+}
+
+nav{
+    grid-column: span 6;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    width: 220px;
+    display:inline-block;
+  }
+  
+nav li a {
+    display: block;
+    background-color: green;
+    padding: 1em;
+    margin:20px 0px 20px 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
+  }
+nav li a:hover{
+    background-color: darkgreen;
+}
+
+main{
+  grid-column: span 4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
+  padding-top: 0px;
+}
+main h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+main a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+    width: 250px;
+    float: right;
+    margin-left: 15px;
+}
+aside{
+    grid-column: span 2;
+    background-color: cornflowerblue;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    padding-top: 0px;
+    margin: 0px 15px 15px 0px;
+}
+aside h2{
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+
+}
+#italics{
+    font-style:italic;
+}
+footer{
+    background-color: cornflowerblue;
+    font-weight:bold;
+    font-family:Helvetica, sans-serif;
+    border-top: 3px solid black;
+    grid-column: span 6;
+    padding-left: 15px;
+}
