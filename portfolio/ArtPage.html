@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Art - Dylan Simotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxanium:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+    />
+
+    <!-- jquery-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+            
+    <!-- nanogallery2 -->
+    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+            <header>
+                <h1>Dylan Simotes</h1>
+            </header>
+            <nav>
+                <img class="navImage" src="NavOverlay.png">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+
+                    <li><a href="About.html">About</a></li>
+
+                    <li><a href="Games.html">Game</a></li>
+
+                    <li><a class="current" href="Art.html">Art</a></li>
+                </ul>
+            </nav>
+
+            <div class="mainimg">
+                <img src="ArtBanner.png" alt="Banner Illustration">
+                <div class="heroText">
+                    <h1>Illustrations</h1>
+                </div>
+            
+
+            </div>
+
+            <main>
+                <section class="red">
+                    <h1>Gallery</h1>
+                    <div id="nanogallery2"
+              
+                        data-nanogallery2 = '{
+                                "thumbnailHeight":  100,
+                                "thumbnailWidth":   100,
+                                galleryDisplayMode: fullContent,
+                                "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/",
+                            }' >
+                            
+                        <a href = "images/mosaic/titan.png"   data-ngThumb = "images/mosaic/titan_thumb.png" ></a>
+                        <a href = "images/mosaic/acid.png"   data-ngThumb = "images/mosaic/acid_thumb.png" ></a>
+                        <a href = "images/mosaic/yu.png"   data-ngThumb = "images/mosaic/yu_thumb.png" ></a>
+                        <a href = "images/mosaic/ma.png"   data-ngThumb = "images/mosaic/ma_thumb.png" ></a>
+                        <a href = "images/mosaic/eyes.png"   data-ngThumb = "images/mosaic/eyes_thumb.png" ></a>
+                        <a href = "images/mosaic/fight.png"   data-ngThumb = "images/mosaic/fight_thumb.png" ></a>
+                        <a href = "images/mosaic/jump.png"   data-ngThumb = "images/mosaic/jump_thumb.png" ></a>
+                        <a href = "images/mosaic/ock.png"   data-ngThumb = "images/mosaic/ock_thumb.png" ></a>
+                        <a href = "images/mosaic/goji.png"   data-ngThumb = "images/mosaic/goji_thumb.png" ></a>
+                        <a href = "images/mosaic/lab.png"   data-ngThumb = "images/mosaic/lab_thumb.png" ></a>
+                        <a href = "images/mosaic/mio.png"   data-ngThumb = "images/mosaic/mio_thumb.png" ></a>
+                        <a href = "images/mosaic/okabe1.png"   data-ngThumb = "images/mosaic/okabe1_thumb.png" ></a>
+                        <a href = "images/mosaic/mural2.png"   data-ngThumb = "images/mosaic/mural2_thumb.png" ></a>
+                        <a href = "images/mosaic/mural3.png"   data-ngThumb = "images/mosaic/mural3_thumb.png" ></a>
+                        <a href = "images/mosaic/mural1.png"   data-ngThumb = "images/mosaic/mural1_thumb.png" ></a>
+                        <a href = "images/mosaic/takuru.png"   data-ngThumb = "images/mosaic/takuru_thumb.png" ></a>
+                        <a href = "images/mosaic/senri.png"   data-ngThumb = "images/mosaic/senri_thumb.png" ></a>
+                        <a href = "images/mosaic/serika.png"   data-ngThumb = "images/mosaic/serika_thumb.png" ></a>
+                        <a href = "images/mosaic/annalynn.png"   data-ngThumb = "images/mosaic/annalynn_thumb.png" ></a>
+                        <a href = "images/mosaic/phone.png"   data-ngThumb = "images/mosaic/phone_thumb.png" ></a>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <ul>
+                    <a class="bi bi-envelope-at" href="mailto:dsimotes@gmail.com" target="blank"></i></a>
+
+                    <a href="https://twitter.com/Tazmi_" target="blank"><i class="bi bi-twitter"></i></a>
+
+                    <a href="https://www.instagram.com/tazmii_/" target="blank"><i class="bi bi-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/dylan-simotes-1962a9211/" target="blank"><i class="bi bi-linkedin"></i></a>
+
+                </ul>
+            </footer>
+    </div>
+    <script>
+    const container = document.getElementById("myCarousel");
+    const options = {infinite: true,};
+
+    new Carousel(container, options);
+    </script>
+</body>
+</html>
