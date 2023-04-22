@@ -14,12 +14,11 @@
          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
     />
 
-    <!-- jquery-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
-            
-    <!-- nanogallery2 -->
-    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/nanogallery2@2.4.2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2@2.4.2/dist/jquery.nanogallery2.min.js"></script>
+
 
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -56,11 +55,15 @@
                     <div id="nanogallery2"
               
                         data-nanogallery2 = '{
-                                "thumbnailHeight":  100,
-                                "thumbnailWidth":   100,
-                                galleryDisplayMode: fullContent,
-                                "itemsBaseURL":     "https://nanogallery2.nanostudio.org/samples/",
-                            }' >
+
+                                "thumbnailHeight":           500,
+                                "thumbnailWidth":            "auto",
+                                "thumbnailGutterWidth":      5,
+                                "thumbnailGutterHeight":     5,
+                                "thumbnailBorderHorizontal": 0,
+                                "thumbnailBorderVertical":   0, 
+                                "thumbnailLabel":            { "display" : false }
+                          }' >
                             
                         <a href = "images/mosaic/titan.png"   data-ngThumb = "images/mosaic/titan_thumb.png" ></a>
                         <a href = "images/mosaic/acid.png"   data-ngThumb = "images/mosaic/acid_thumb.png" ></a>
@@ -98,11 +101,6 @@
                 </ul>
             </footer>
     </div>
-    <script>
-    const container = document.getElementById("myCarousel");
-    const options = {infinite: true,};
 
-    new Carousel(container, options);
-    </script>
 </body>
 </html>
