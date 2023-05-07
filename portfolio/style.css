@@ -44,8 +44,6 @@ nav{
 }
 nav ul {
   list-style-type: none;
-  margin: 20;
-  padding: 20;
   padding-bottom: 0;
   position: absolute;
   top: 0px;
@@ -91,7 +89,7 @@ a:hover{
   font-size: 200%;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -107,6 +105,7 @@ main{
   font-family: helvetica, Arial, sans-serif;
   font-weight: bold;
 }
+/*----------*/
 section{
   grid-column: span 12;
   font-family: helvetica, sans-serif;
@@ -137,6 +136,32 @@ h2{
   width:50%;
   float:right;
 }
+.aboutimg{
+  width:35%;
+  float: left;
+}
+.f-carousel{
+  width:50%;
+  border:3px solid black;
+    --f-carousel-theme-color: #A9A9A9!important; /* change arrow color */
+    --f-button-svg-width: 50px!important; /* arrow width */
+    --f-button-svg-height: 50px!important; /* arrow height */
+    --f-button-svg-stroke-width: 2.5!important; /* arrow weight */
+    --f-button-svg-disabled-opacity: 0.5!important; /* arrow disabled fade */
+}
+#myCarousel1{
+  float:left;
+  margin-right:10px;
+}
+#myCarousel2{
+  float:right;
+  margin-left:10px;
+}
+.f-carousel img{
+  width:100%;
+}
+
+
 .imghome2{
   width: 50%;
   float:left;

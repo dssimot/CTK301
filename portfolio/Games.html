@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home - Dylan Simotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxanium:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+    />
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+            <header>
+                <h1>Dylan Simotes</h1>
+            </header>
+            <nav>
+                <img class="navImage" src="NavOverlay.png" alt="Navigation Overlay">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+
+                    <li><a href="About.html">About</a></li>
+
+                    <li><a class="current" href="Games.html">Game</a></li>
+
+                    <li><a href="ArtPage.html">Art</a></li>
+                </ul>
+            </nav>
+
+            <div class="mainimg">
+                <img src="GameBanner.png" alt="Banner Illustration">
+                <div class="heroText">
+                    <h1>Game Development</h1>
+                </div>
+            
+
+            </div>
+
+            <main>
+                <section class="red">
+                    <h2 class="redh2">Jump and Gun</h2>
+                    <div class="f-carousel" id="myCarousel1">
+                        <div class="f-carousel__slide"><img src="GAME01.png" alt="Overhead View"></div>
+                        <div class="f-carousel__slide"><img src="GAME02.jpg" alt="floor shot"></div>
+                        <div class="f-carousel__slide"><img src="GAME03.png" alt="level start"></div>
+                        <div class="f-carousel__slide"><img src="GAME04.png" alt="platforming section"></div>
+                      </div>
+                    
+                    <p>Jump and Gun was developed for Game Design II at Illinois State University. It subverts traditional FPS design by putting an emphasis on tight platforming and close range combat. The game tests your ability to jump and shoot in tandem, progressively increasing in difficulty. The level ends in a boss battle putting are the skills learned to the test.</p>
+                </section>
+                <section>
+                    <h2>Deep Dark Web</h2>
+                    <div class="f-carousel" id="myCarousel2">
+                        <div class="f-carousel__slide"><img src="web01.png" alt="Title Screen"></div>
+                        <div class="f-carousel__slide"><img src="web02.png" alt="Web Page"></div>
+                        <div class="f-carousel__slide"><img src="web03.png" alt="Drain Minigame"></div>
+                        <div class="f-carousel__slide"><img src="web04.png" alt="Glitched Login"></div>
+                        <div class="f-carousel__slide"><img src="web05.png"alt="System Menu"></div>
+                        <div class="f-carousel__slide"><img src="web06.png"alt="Computer Shut Off"></div>
+                      </div>
+                    
+                    <p>Deep Dark Web brings unlikely combinations of ideas to bring an obsurd yet innovative experience. The player is trapped in a room with water rising progressively. Armed with nothing but an outdated desktop computer, the player must find a way to stop of water flow before it's too late. The game combines vaporwave aesthetics with retro models and UI to give an experience that's simultaniously calming and incredibly stressful.</p>
+                </section>
+            </main>
+            <footer>
+                <ul>
+                    <a class="bi bi-envelope-at" href="mailto:dsimotes@gmail.com" target="blank"></a>
+
+                    <a class="bi bi-twitter" href="https://twitter.com/Tazmi_" target="blank"></a>
+
+                    <a class="bi bi-instagram" href="https://www.instagram.com/tazmii_/" target="blank"></a>
+
+                    <a class="bi bi-linkedin" href="https://www.linkedin.com/in/dylan-simotes-1962a9211/" target="blank"></a>
+
+                </ul>
+            </footer>
+    </div>
+    <script>
+        const container = document.getElementById("myCarousel1");
+        const options = { infinite: true };
+
+        new Carousel(container, options);
+
+        const container2 = document.getElementById("myCarousel2");
+        const options2 = { infinite: true };
+
+        new Carousel(container2, options2);
+    </script>
+</body>
+</html>
