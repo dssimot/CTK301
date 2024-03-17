@@ -45,16 +45,18 @@
 
             <main>
                 <section class="red">
-                    <h2 class="redh2">Jump and Gun</h2>
-                    <div class="f-carousel" id="myCarousel1">
-                        <div class="f-carousel__slide"><img src="GAME01.png" alt="Overhead View"></div>
-                        <div class="f-carousel__slide"><img src="GAME02.jpg" alt="floor shot"></div>
-                        <div class="f-carousel__slide"><img src="GAME03.png" alt="level start"></div>
-                        <div class="f-carousel__slide"><img src="GAME04.png" alt="platforming section"></div>
+                    <h2 class="redh2">Dominion Domination</h2>
+                    <div class="f-carousel" id="myCarousel3">
+                        <div class="f-carousel__slide"><img src="dominion/box.png" alt="BoxArt"></div>
+                        <div class="f-carousel__slide"><img src="dominion/board.jpg" alt="Board"></div>
+                        <div class="f-carousel__slide"><img src="dominion/cards.png" alt="Leader Cards"></div>
+                        <div class="f-carousel__slide"><img src="dominion/buildings.png" alt="Building Piece Art"></div>
+                        <div class="f-carousel__slide"><img src="dominion/leaders.png" alt="Leader Building Art"></div>
                       </div>
                     
-                    <p>Jump and Gun was developed for Game Design II at Illinois State University. It subverts traditional FPS design by putting an emphasis on tight platforming and close range combat. The game tests your ability to jump and shoot in tandem, progressively increasing in difficulty. The level ends in a boss battle putting are the skills learned to the test.</p>
+                    <p>Take control of one of six kingdoms and battle it out for territorial control. Expand your kingdom and build structures. Maybe even fight for land. Your goal is to cover more of the board than your opponents within the turn limit. This is the first of two games created for my Creative Technologies capstone at Illinois State University.</p>
                 </section>
+                
                 <section>
                     <h2>Deep Dark Web</h2>
                     <div class="f-carousel" id="myCarousel2">
@@ -67,6 +69,17 @@
                       </div>
                     
                     <p>Deep Dark Web brings unlikely combinations of ideas to bring an obsurd yet innovative experience. The player is trapped in a room with water rising progressively. Armed with nothing but an outdated desktop computer, the player must find a way to stop of water flow before it's too late. The game combines vaporwave aesthetics with retro models and UI to give an experience that's simultaniously calming and incredibly stressful.</p>
+                </section>
+                <section class="red">
+                    <h2 class="redh2">Jump and Gun</h2>
+                    <div class="f-carousel" id="myCarousel1">
+                        <div class="f-carousel__slide"><img src="GAME01.png" alt="Overhead View"></div>
+                        <div class="f-carousel__slide"><img src="GAME02.jpg" alt="floor shot"></div>
+                        <div class="f-carousel__slide"><img src="GAME03.png" alt="level start"></div>
+                        <div class="f-carousel__slide"><img src="GAME04.png" alt="platforming section"></div>
+                      </div>
+                    
+                    <p>Jump and Gun was developed for Game Design II at Illinois State University. It subverts traditional FPS design by putting an emphasis on tight platforming and close range combat. The game tests your ability to jump and shoot in tandem, progressively increasing in difficulty. The level ends in a boss battle putting are the skills learned to the test.</p>
                 </section>
             </main>
             <footer>
@@ -92,6 +105,11 @@
         const options2 = { infinite: true };
 
         new Carousel(container2, options2);
+
+        const container3 = document.getElementById("myCarousel3");
+        const options3 = { infinite: true };
+
+        new Carousel(container3, options3);
     </script>
 </body>
 </html>
